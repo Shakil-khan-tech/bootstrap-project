@@ -1,0 +1,70 @@
+html,body{
+	height: 100vh;
+	width: 100vw;
+	background-image: url('pic2.jpg');
+	background-size: cover;
+	background-position: 0% 9%;
+	background-repeat: no-repeat;
+	background-color: moccasin;
+}
+
+*{
+	font-family: Berlin sans FB;
+	margin= 0;
+	padding= 0;
+}
+.nav-link .nav-brand{
+	color: white !important;
+}
+.navbar-brand{
+	font-size: 3vw !important;
+}
+.nav-link{
+	font-size: 2vw;
+}
+.content{
+	margin-top: 17vw;
+	margin-bottom: 35vw;
+}
+h1{
+	font-family: fantasy;
+	font-size: 5vw !important;
+	font-weight: bold;
+}
+p{
+	font-size: 18px;
+	font-family: fantasy;
+	text-align: center;
+	font-weight: bold;
+}
+.parallax{
+	height: 30vw;
+	background-image: url(pic1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+input[type="text"]{
+	width: 25vw;
+}
+textarea{
+	width: 53vw;
+}
+.btn{
+	background-color: transparent !important;
+	color: green !important;
+}
+.btn1{
+	background-color: transparent !important;
+	color: red !important;
+}
+.btn2{
+	background-color: transparent !important;
+	color: red !important;
+}
+.article{
+	border: 2px solid seagreen;
+}
